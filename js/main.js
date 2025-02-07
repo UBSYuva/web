@@ -79,8 +79,8 @@ Version:	1.1
 			Hero Slider JS
 		=================================*/ 
 		$(".hero-slider").owlCarousel({
-			loop:true,
-			autoplay:true,
+			loop:false,
+			autoplay:false,
 			smartSpeed: 500,
 			autoplayTimeout:3500,
 			singleItem: true,

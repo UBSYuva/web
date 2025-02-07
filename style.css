@@ -1,6 +1,10 @@
+p {
+	margin-top: 10px !important;
+}
+
 .slider-img {
 	border-radius: 5%;
-	box-shadow: 5px 5px 5px 5px rgb(113, 123, 126);
+	box-shadow: 5px 5px 15px 1px rgb(113, 123, 126);
 	max-height: 550px;
 }
 
@@ -10,8 +14,8 @@
 	justify-content: center;
 }
 
-.p-contact{
-	font-size: 17px !important;
+.p-contact {
+	font-size: 18px !important;
 }
 
 .img {
@@ -274,9 +278,9 @@ body {
 
 /* Topbar */
 .header .topbar {
-	background-color: #8b7272;
 	border-bottom: 1px solid #eee;
 	color: #e9dbdb;
+	background: radial-gradient(#3581D2, #143457)
 }
 
 .header .topbar {
@@ -347,11 +351,20 @@ body {
 	color: #fff;
 }
 
+.header .logo-right {
+	margin: 5px 10px 5px 0;
+	display: flex;
+	justify-content: end;
+	border-radius: 10px;
+	padding: 4px 4px 4px 0;
+}
+
 .header .logo {
 	margin: 5px 0 5px 0;
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 	border-radius: 10px;
+	padding: 4px 0 4px 15px;
 }
 
 .logo-img {
@@ -1054,7 +1067,7 @@ body {
 }
 
 .fun-facts.section {
-	padding: 120px 0;
+	padding: 60px 0;
 }
 
 .fun-facts {
@@ -3989,10 +4002,10 @@ body {
 
 .contact-us .single-info i {
 	font-size: 20px;
-    color: #fff;
-    position: absolute;
-    left: 59px;
-    padding-top: 5px;
+	color: #fff;
+	position: absolute;
+	left: 59px;
+	padding-top: 5px;
 }
 
 .contact-us .single-info .content {
@@ -4861,15 +4874,23 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
 }
 
 .img-dashboard {
-	padding: 30px;
+	width: 100%;
+	height: 588px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 20px;
+	box-sizing: border-box;
 }
 
 .info-slider {
-	padding-top: 10px;
 	font-size: 1.2rem;
+	overflow: scroll !important;
+	height: 489px;
 }
 
 /*=========================
