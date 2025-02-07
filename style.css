@@ -327,8 +327,8 @@ body {
 }
 
 .logo-img {
-	border-radius: 75px;
-	height: 50px;
+	border-radius: 5px;
+    height: 100px;
 }
 
 .contact-info {
@@ -669,7 +669,7 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background: radial-gradient(rgb(167, 140, 140), transparent);
+	background: radial-gradient(rgb(202, 186, 186), transparent);
 }
 
 .slider .single-slider .text {
