@@ -730,7 +730,7 @@ body {
 	line-height: 42px;
 }
 
-.video-file{
+.video-file {
 	font-size: 30px;
 }
 
@@ -1906,12 +1906,11 @@ body {
 
 .pricing-table .single-table {
 	background: #fff;
-	border: 1px solid #ddd;
 	text-align: center;
 	position: relative;
 	overflow: hidden;
-	margin: 15px 0;
-	padding: 45px 35px 30px 35px;
+	margin: 5px 0;
+	padding: 5px;
 }
 
 /* Table Head */
@@ -1956,8 +1955,12 @@ body {
 	position: relative;
 	color: #666;
 	text-transform: capitalize;
-	margin-bottom: 18px;
+	margin-bottom: 10px;
 	padding-right: 32px;
+}
+
+.trustee-list {
+	font-size: large;
 }
 
 .pricing-table .table-list li:last-child {
@@ -1972,7 +1975,7 @@ body {
 	font-size: 7px;
 	text-align: center;
 	margin-right: 10px;
-	position: absolute;
+	/* position: absolute; */
 	right: 0;
 	height: 16px;
 	width: 16px;
@@ -3813,7 +3816,7 @@ body {
 }
 
 .contact-us .contact-us-form {
-	padding: 50px 40px;
+	padding: 30px 40px;
 }
 
 .contact-us .contact-us-form h2 {
@@ -3828,6 +3831,15 @@ body {
 	text-align: left;
 }
 
+.contact-us .contact-us-form h3 {
+	position: relative;
+	font-size: 25px;
+	color: #333;
+	font-weight: 600;
+	line-height: 20px;
+	text-transform: capitalize;
+}
+
 .contact-us .contact-us-form h2:before {
 	position: absolute;
 	content: "";
@@ -3836,6 +3848,16 @@ body {
 	height: 2px;
 	width: 50px;
 	background: #1A76D1;
+}
+
+.h3-sub:before {
+	position: absolute;
+    content: "";
+    left: 0;
+    top: 30px;
+    height: 2px;
+    width: 50px;
+    background: #1A76D1;
 }
 
 .contact-us .contact-us-form p {
@@ -3960,13 +3982,13 @@ body {
 }
 
 .contact-us .contact-info {
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 .contact-us .single-info {
 	background: #1a76d1;
-	padding: 30px 00px;
-	height: 150px;
+	/* padding: 30px 00px; */
+	height: 80px;
 	border-radius: 10px;
 	position: relative;
 	-webkit-transition: all .3s ease-out 0s;
@@ -4012,8 +4034,10 @@ body {
 	padding-top: 5px;
 }
 
-.contact-us .single-info .content {
-	margin-left: 20px;
+.karyakarta {
+	font-size: large;
+	display: flex;
+	justify-content: center;
 }
 
 .contact-us .single-info .content h3 {
@@ -4025,7 +4049,7 @@ body {
 
 .contact-us .single-info .content p {
 	color: #fff;
-	margin-top: 5px;
+	margin-top: 18px !important;
 }
 
 /* Google Map */
@@ -4898,12 +4922,15 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+	width: 0;
+	/* Remove scrollbar space */
+	background: transparent;
+	/* Optional: just make scrollbar invisible */
 }
+
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-    background: #FF0000;
+	background: #FF0000;
 }
 
 /*=========================
