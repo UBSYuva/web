@@ -384,7 +384,23 @@ body {
 	padding: 4px 0 4px 15px;
 }
 
+.zoom {
+	transition: transform 0.5s;
+}
+
+.zoom:hover {
+	transform: scale(1.3);
+	position: absolute;
+	top: 20px;
+	left: 30px;
+}
+
 .logo-img {
+	border-radius: 50%;
+	height: 100px;
+}
+
+.logo-img-right {
 	border-radius: 50%;
 	height: 100px;
 }
