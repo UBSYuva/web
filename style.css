@@ -369,7 +369,7 @@ body {
 
 .logo-img {
 	border-radius: 50%;
-	height: 50px;
+	height: 100px;
 }
 
 .contact-info {
@@ -4898,11 +4898,11 @@ body {
 
 .main-label {
 	font-weight: 700;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	display: flex;
-	justify-content: center;
 	align-items: center;
 	width: 100%;
+	line-height: 30px;
 }
 
 .img-dashboard {
