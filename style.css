@@ -18,10 +18,27 @@ p {
 	font-size: 18px !important;
 }
 
+.full-screen-in {
+	position: absolute;
+	left: 50%;
+	top: 6px;
+}
+
+.full-screen {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	z-index: 10000;
+	background: white;
+	padding: 4%;
+}
+
 .img {
 	width: 100% !important;
 	height: 100%;
-	object-fit: cover;
+	/* object-fit: cover; */
 }
 
 .gallery-img {
